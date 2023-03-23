@@ -11,7 +11,7 @@ const init = async () => {
               origin: ['*'],
             },
           },
-    });
+    });~
     
     server.route(route);
     await server.start();
